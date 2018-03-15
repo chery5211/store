@@ -1,0 +1,6 @@
+[ 2016-12-30T00:44:02+08:00 ] 101.226.33.225 /wei/index.php/user/cancel
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND uid =  )' at line 1
+ [ SQL语句 ] : DELETE FROM `sw_collect` WHERE ( gid =  AND uid =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND uid =  )' at line 1
+ [ SQL语句 ] : DELETE FROM `sw_collect` WHERE ( gid =  AND uid =  )
+

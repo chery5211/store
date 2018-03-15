@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>showlist</title>
+
+<!-- 头部-->
+    <include file="Common:header"/>
+    
+    <div class="single-product-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <foreach name="info" item="v">
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-shop-product">
+                        <div class="product-upper">
+                            <img src="__ROOT__/{$v.goods_big_img}" alt="">
+                        </div>
+                        <h2><a href="">{$v.goods_name}</a></h2>
+                        <div class="product-carousel-price">
+                            <ins>${$v.goods_price}</ins> <del>${$v.goods_price2}</del>
+                        </div>  
+                        
+                        <div class="product-option-shop">
+                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="__CONTROLLER__/detail/goods_id/{$v.goods_id}">Go to Detail</a>     
+                        </div>   
+                                  
+                    </div> 
+                </div>
+               </foreach>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="product-pagination text-center">
+                        <nav>
+                            {$pagelist}
+
+                        </nav>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--  底部-->
+
+    
+    <include file="Common:bottom"/>
+  </body>
+</html>

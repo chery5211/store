@@ -1,0 +1,18 @@
+[ 2016-11-23T09:23:47+08:00 ] 66.249.69.236 /wei/index.php/user/update
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sw_user` SET `username`=NULL,`password`=NULL,`user_email`=NULL WHERE ( user_id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sw_user` SET `username`=NULL,`password`=NULL,`user_email`=NULL WHERE ( user_id =  )
+
+[ 2016-11-23T09:23:59+08:00 ] 66.249.69.236 /wei/index.php/user/cancel
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND uid =  )' at line 1
+ [ SQL语句 ] : DELETE FROM `sw_collect` WHERE ( gid =  AND uid =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND uid =  )' at line 1
+ [ SQL语句 ] : DELETE FROM `sw_collect` WHERE ( gid =  AND uid =  )
+
+[ 2016-11-23T09:24:20+08:00 ] 66.249.69.236 /wei/index.php/com/getcomment
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY time DESC' at line 1
+ [ SQL语句 ] : SELECT * FROM `sw_comment` WHERE ( gid =  ) ORDER BY time DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY time DESC' at line 1
+ [ SQL语句 ] : SELECT * FROM `sw_comment` WHERE ( gid =  ) ORDER BY time DESC 
+

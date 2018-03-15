@@ -1,0 +1,9 @@
+[ 2016-08-29T14:43:33+08:00 ] ::1 /mytp/index.php/Home/View/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019889s ]
+ERR: 无法加载控制器:View
+

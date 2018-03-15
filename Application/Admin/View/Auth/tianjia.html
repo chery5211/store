@@ -1,0 +1,76 @@
+
+    <include file="Common:head"/>
+
+<div class="main_box">
+    <!--面包屑导航 开始-->
+    <div class="crumb_warp">
+        <!--<i class="fa fa-bell"></i> 欢迎使用登陆网站后台，建站的首选工具。-->
+        <i class="fa fa-home"></i> <a href="#">首页</a> &raquo; <a href="#">
+    </div>
+    <!--面包屑导航 结束-->
+
+	<!--结果集标题与导航组件 开始-->
+	<div class="result_wrap">
+        <div class="result_title">
+            <h3>快捷操作</h3>
+        </div>
+        <div class="result_content">
+            <div class="short_wrap">
+                <a href="#"><i class="fa fa-plus"></i>新增</a>
+                <a href="#"><i class="fa fa-recycle"></i>批量删除</a>
+                <a href="#"><i class="fa fa-refresh"></i>更新排序</a>
+            </div>
+        </div>
+    </div>
+    <!--结果集标题与导航组件 结束-->
+    
+    <div class="result_wrap">
+        <form action="{:U('Auth/tianjia')}" method="post" enctype="multipart/form-data">
+            <table class="add_tab">
+                <tbody>
+
+                   
+                    <tr>
+                        <th><i class="require">*</i>权限名称：</th>
+                        <td>
+                            <input type="text" class="sm" name="auth_name">
+                        </td>
+                    </tr>
+                     <tr>
+                        <th><i class="require">*</i>权限上级：</th>
+                        <td>
+                            <select name="auth_pid">
+                                <option value="0">==请选择==</option>
+                                <foreach name="auth_infoA" item="v" key="k" >
+                                    <option value="{$v.auth_id}" >{:str_repeat('---', $v['auth_level'])}{$v.auth_name}</option>
+                                </foreach>
+                            </select>
+                        </td>
+                    </tr>
+                   <tr>
+                        <th><i class="require">*</i>权限控制器：</th>
+                        <td>
+                            <input type="text" class="sm" name="auth_c">
+                        </td>
+                    </tr>                   
+                    <tr>
+                        <th><i class="require">*</i>权限操作方法：</th>
+                        <td>
+                            <input type="text" class="sm" name="auth_a">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input type="submit" value="提交">
+                            <input type="button" class="back" onclick="history.go(-1)" value="返回">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+<html>
+

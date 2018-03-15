@@ -1,0 +1,78 @@
+[ 2016-11-15T20:08:25+08:00 ] ::1 /wei/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0698s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time desc LIMIT 7   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_view desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_price < 400  ) ORDER BY goods_price asc LIMIT 3   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\wei\Application\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.055023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.055205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010849s ]
+
+[ 2016-11-15T20:08:26+08:00 ] ::1 /wei/index.php/Index/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-11-15T21:05:39+08:00 ] ::1 /wei/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time desc LIMIT 7   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_view desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_price < 400  ) ORDER BY goods_price asc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\wei\Application\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2016-11-15T21:05:39+08:00 ] ::1 /wei/index.php/Index/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+

@@ -1,0 +1,39 @@
+<include file="Common:head"/>
+
+
+<div class="main_box">
+    <!--面包屑导航 开始-->
+    <div class="crumb_warp">
+        <!--<i class="fa fa-bell"></i> 欢迎使用登陆网站后台，建站的首选工具。-->
+        <i class="fa fa-home"></i> 
+    </div>
+    <!--面包屑导航 结束-->
+
+    
+    <div class="result_wrap">
+        <form action="{:U('Role/update')}" method="post">
+        	<input type="hidden" name="role_id" value="{$info.role_id}" />
+            <table class="add_tab">
+                <tbody>
+                    <tr>
+                        <th><i class="require">*</i>分类名称：</th>
+                        <td>
+                            <input type="text" class="lg" name="role_name" value="{$info.role_name}">
+                            
+                        </td>
+                    </tr>
+                  
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input type="submit" value="提交">
+                            <input type="button" class="back" onclick="history.go(-1)" value="返回">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cate</title>
+        <style>
+        .accordion{margin-bottom:18px}.accordion-group{margin-bottom:2px;border:1px solid #e5e5e5;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.accordion-heading{border-bottom:0}.accordion-heading .accordion-toggle{display:block;padding:8px 15px}.accordion-toggle{cursor:pointer}.accordion-inner{padding:9px 15px;border-top:1px solid #e5e5e5}
+      
+            .accordion-heading a{text-decoration: none; }
+         .accordion-heading{height: 50px; }
+         .accordion-inner a{color:#ccc}
+         .accordion-toggle h4{ margin-top:7px;}
+    </style>
+
+<!-- 头部-->
+    <include file="Common:header"/>
+    
+    <div class="single-product-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+
+                          
+                     <div class="accordion" id="accordion1">
+
+                            <foreach name="infoA" item="v">
+                              <center>
+                                <div class="accordion-group">
+                                    <div class="accordion-heading">
+                                    <a class="accordion-toggle" href="#collapse{$v.cate_id}" data-toggle="collapse" data-parent="#accordion1"><h4>{$v.cate_name}</h4></a>
+                                    </div>
+                              
+                                      <div class="collapse in" id="collapse{$v.cate_id}">
+                                      <div class="accordion-inner">
+                                        <foreach name="infoB" item="vv">
+                                            <if condition="$vv['cate_pid']  eq $v['cate_id']" > 
+                                                <a href="__CONTROLLER__/cates/id/{$vv.cate_id}">{$vv.cate_name}</a>&nbsp;&nbsp;
+                                            </if>
+ 
+                                        </foreach>
+                                      </div>  
+                                     
+                                      </div>
+                                </div>
+                          </center>
+                      </foreach>
+                                  
+                        </div>
+                </div>
+                <div class="col-sm-9">
+                    <ol class="breadcrumb">
+                        <li>首页</li>
+                    </ol>
+
+             <foreach name="info" item="v">
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-shop-product">
+                        <div class="product-upper">
+                            <img src="__ROOT__/{$v.goods_big_img}" alt="">
+                        </div>
+                        <h2><a href="">{$v.goods_name}</a></h2>
+                        <div class="product-carousel-price">
+                            <ins>${$v.goods_price}</ins> <del>${$v.goods_price2}</del>
+                        </div>  
+                        
+                        <div class="product-option-shop">
+                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="__MODULE__/Goods/detail/goods_id/{$v.goods_id}">Go to Detail</a>     
+                        </div>   
+                                  
+                    </div> 
+                </div>
+               </foreach>
+
+
+                
+
+                </div>
+
+
+            </div>
+                        <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-pagination text-center">
+                            <nav>
+                                {$pagelist}
+
+                            </nav>                        
+                        </div>
+                    </div>
+                 </div>
+            
+
+        </div>
+    </div>
+
+
+      
+    <include file="Common:bottom"/>
+  </body>
+</html>

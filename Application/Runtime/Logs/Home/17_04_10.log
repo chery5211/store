@@ -1,0 +1,2007 @@
+[ 2017-04-10T00:21:49+08:00 ] 183.57.53.197 /wei/index.php/cate/showlist?page%25253D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods order by goods_id desc Limit 0, 5 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T00:21:57+08:00 ] 101.226.33.206 /wei/index.php/cate/showlist?page%25253D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods order by goods_id desc Limit 0, 5 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T01:49:12+08:00 ] 183.57.53.197 /wei/index.php/home/cate/cates/id/25?page%2525252525252525252525252525252525253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=25 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T01:49:21+08:00 ] 180.153.205.254 /wei/index.php/home/cate/cates/id/25?page%2525252525252525252525252525252525253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=25 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T01:49:39+08:00 ] 101.226.68.215 /wei/index.php/Home/Cate/cates/id/22?page%2525253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T01:49:48+08:00 ] 101.226.89.121 /wei/index.php/Home/Cate/cates/id/22?page%2525253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T02:07:24+08:00 ] 180.153.205.252 /wei/index.php/Home/Cate/ca/id/19?page%25252525252525253D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_pid=19 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id in(23) order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T02:50:32+08:00 ] 180.153.214.200 /wei/index.php/home/cate/cates/id/25?page%2525252525252525252525252525252525253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=25 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T04:04:28+08:00 ] 180.153.201.66 /wei/index.php/home/cate/cates/id/25?page%252525252525252525252525252525252525253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=25 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T04:13:40+08:00 ] 117.185.27.115 /wei/index.php/Goods/detail/goods_id/201.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: UPDATE `sw_goods` SET `goods_view`=goods_view+1 WHERE ( goods_id=201 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE `goods_id` = 201 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_view DESC LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time DESC LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\GoodsController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T04:20:44+08:00 ] 66.249.64.113 /wei/index.php/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T04:34:29+08:00 ] 101.226.33.206 /wei/index.php/home/cate/cates/id/23?page%25252525252525252525252525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=23 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T04:40:31+08:00 ] 101.226.33.228 /wei/index.php/Home/Cate/ca/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_pid=18 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id in(22) order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T04:58:25+08:00 ] 180.153.214.178 /wei/index.php/Home/Cate/cates/id/22?page%252525253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T05:01:04+08:00 ] 112.90.82.218 /wei/index.php/Home/Cate/ca/id/19?page%2525252525252525253D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_pid=19 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id in(23) order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T05:01:13+08:00 ] 180.153.205.252 /wei/index.php/Home/Cate/ca/id/19?page%2525252525252525253D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_pid=19 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id in(23) order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T05:02:41+08:00 ] 106.120.173.123 /wei/index.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T05:02:51+08:00 ] 106.120.173.123 /wei/index.php/goods/detail/goods_id/202.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: UPDATE `sw_goods` SET `goods_view`=goods_view+1 WHERE ( goods_id=202 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE `goods_id` = 202 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_view DESC LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time DESC LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\GoodsController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T05:19:09+08:00 ] 180.153.201.66 /wei/index.php/home/cate/cates/id/25?page%252525252525252525252525252525252525253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=25 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T06:25:37+08:00 ] 101.226.51.227 /wei/index.php/Goods/detail/goods_id/191.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: UPDATE `sw_goods` SET `goods_view`=goods_view+1 WHERE ( goods_id=191 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE `goods_id` = 191 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_view DESC LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time DESC LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\GoodsController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T06:44:31+08:00 ] 180.153.206.21 /wei/index.php/home/cate/cates/id/23?page%2525252525252525252525252525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=23 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T06:48:54+08:00 ] 183.57.53.177 /wei/index.php/Home/Cate/cates/id/25?page%3D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=25 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T06:48:54+08:00 ] 183.57.53.222 /wei/index.php/home/cate/cates/id/21?page%3D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=21 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T06:49:02+08:00 ] 61.151.218.118 /wei/index.php/Home/Cate/cates/id/25?page%3D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=25 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T06:54:46+08:00 ] 101.226.66.177 /wei/index.php/home/cate/cates/id/25?page%25252525252525252525252525252525252525253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=25 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T06:56:12+08:00 ] 183.57.53.177 /wei/index.php/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T06:56:21+08:00 ] 101.226.51.227 /wei/index.php/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T07:33:43+08:00 ] 101.226.64.174 /wei/index.php/Home/Cate/cates/id/22?page%3D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T07:33:52+08:00 ] 101.226.33.203 /wei/index.php/Home/Cate/cates/id/22?page%3D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T07:35:28+08:00 ] 180.153.214.198 /wei/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_view desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_price < 400  ) ORDER BY goods_price asc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T07:35:45+08:00 ] 101.226.51.227 /wei/index.php/Home/Cate/cates/id/22?page%25252525253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T07:48:01+08:00 ] 101.226.68.213 /wei/index.php/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods order by goods_id desc Limit 0, 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\GoodsController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-04-10T07:49:47+08:00 ] 180.76.15.141 /wei/index.php/home/cate/cates/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T08:14:23+08:00 ] 180.163.2.118 /wei/index.php/cate/showlist?page%2525253D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods order by goods_id desc Limit 0, 5 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T08:31:24+08:00 ] 183.57.53.177 /wei/index.php/Goods/detail/goods_id/192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: UPDATE `sw_goods` SET `goods_view`=goods_view+1 WHERE ( goods_id=192 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE `goods_id` = 192 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_view DESC LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time DESC LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\GoodsController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.234377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.234377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T08:31:33+08:00 ] 101.226.33.206 /wei/index.php/Goods/detail/goods_id/192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: UPDATE `sw_goods` SET `goods_view`=goods_view+1 WHERE ( goods_id=192 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE `goods_id` = 192 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_view DESC LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time DESC LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\GoodsController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T08:32:39+08:00 ] 61.151.226.16 /wei/index.php/Home/Cate/ca/id/19?page%252525252525252525253D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_pid=19 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id in(23) order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T08:38:27+08:00 ] 220.181.108.187 /wei/index.php/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods order by goods_id desc Limit 0, 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\GoodsController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T09:27:45+08:00 ] 183.57.53.197 /wei/index.php/home/cate/cates/id/21?page%253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=21 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T09:27:54+08:00 ] 101.226.33.219 /wei/index.php/home/cate/cates/id/21?page%253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=21 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T09:27:54+08:00 ] 180.163.2.118 /wei/index.php/home/cate/cates/id/21?page%253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=21 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T09:27:54+08:00 ] 101.226.85.67 /wei/index.php/home/cate/cates/id/21?page%253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=21 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T09:28:01+08:00 ] 101.226.99.197 /wei/index.php/home/cate/cates/id/21?page%253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=21 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T09:29:23+08:00 ] 101.226.66.174 /wei/index.php/home/cate/cates/id/25?page%2525252525252525252525252525252525252525253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=25 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T09:43:23+08:00 ] 183.57.53.177 /wei/index.php/home/cate/cates/id/23?page%252525252525252525252525252525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=23 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T09:43:40+08:00 ] 101.226.125.16 /wei/index.php/home/cate/cates/id/23?page%252525252525252525252525252525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=23 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T10:17:05+08:00 ] 101.226.69.246 /wei/index.php/home/cate/cates/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T10:22:05+08:00 ] 180.153.214.198 /wei/index.php/Home/Cate/cates/id/22?page%253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T10:28:20+08:00 ] 101.226.33.220 /wei/index.php/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods order by goods_id desc Limit 0, 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\GoodsController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T10:38:39+08:00 ] 140.207.185.107 /wei/index.php/Home/Cate/cates/id/25?page%253D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=25 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T13:18:03+08:00 ] 180.153.214.191 /wei/index.php/Home/Cate/cates/id/24?page%3D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=24 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T13:18:04+08:00 ] 101.226.99.196 /wei/index.php/home/cate/cates/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=23 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T13:18:04+08:00 ] 101.226.66.180 /wei/index.php/home/cate/cates/id/21?page%25253D4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=21 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015624s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T13:18:06+08:00 ] 180.163.1.46 /wei/index.php/home/cate/cates/id/23?page%25252525252525252525252525252525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=23 order by goods_id desc Limit 0, 3 [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T13:18:06+08:00 ] 101.226.125.103 /wei/index.php/home/cate/cates/id/23?page%25252525252525252525252525252525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0156s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=23 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T13:18:07+08:00 ] 101.226.66.173 /wei/index.php/home/cate/cates/id/23?page%25252525252525252525252525252525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=23 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T13:18:09+08:00 ] 101.226.89.122 /wei/index.php/home/cate/cates/id/23?page%25252525252525252525252525252525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=23 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T13:37:49+08:00 ] 183.57.53.197 /wei/index.php/Home/Cate/cates/id/22?page%25253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T13:37:57+08:00 ] 117.185.27.115 /wei/index.php/Home/Cate/cates/id/22?page%25253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T14:47:14+08:00 ] 101.226.61.206 /wei/index.php/Home/Cate/cates/id/24?page%253D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=24 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T14:54:15+08:00 ] 101.226.79.182 /wei/index.php/home/cate/cates/id/23?page%2525252525252525252525252525252525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=23 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T17:04:42+08:00 ] 101.226.68.215 /wei/index.php/Home/Cate/cates/id/22?page%2525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T17:04:51+08:00 ] 101.226.33.240 /wei/index.php/Home/Cate/cates/id/22?page%2525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=22 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T17:35:13+08:00 ] 106.120.173.123 /wei/index.php/goods/detail/goods_id/194.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: UPDATE `sw_goods` SET `goods_view`=goods_view+1 WHERE ( goods_id=194 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE `goods_id` = 194 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_view DESC LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time DESC LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\GoodsController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T17:35:29+08:00 ] 106.120.173.123 /wei/index.php/goods/detail/goods_id/204.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: UPDATE `sw_goods` SET `goods_view`=goods_view+1 WHERE ( goods_id=204 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE `goods_id` = 204 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_view DESC LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time DESC LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\GoodsController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T17:38:44+08:00 ] 203.208.60.229 /wei/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_view desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_price < 400  ) ORDER BY goods_price asc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` ORDER BY goods_create_time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T18:23:57+08:00 ] 183.57.53.197 /wei/index.php/Home/Cate/cates/id/24?page%25253D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=24 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T18:24:05+08:00 ] 117.185.27.115 /wei/index.php/Home/Cate/cates/id/24?page%25253D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=24 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T18:24:05+08:00 ] 101.226.33.238 /wei/index.php/Home/Cate/cates/id/24?page%25253D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=24 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T18:24:06+08:00 ] 101.226.69.246 /wei/index.php/Home/Cate/cates/id/24?page%25253D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=24 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T18:24:14+08:00 ] 61.151.228.22 /wei/index.php/Home/Cate/cates/id/24?page%25253D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.015626s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=24 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T18:57:45+08:00 ] 180.153.206.18 /wei/index.php/home/cate/cates/id/23?page%252525252525252525252525252525252525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=23 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T21:32:22+08:00 ] 101.226.33.202 /wei/index.php/Home/Cate/cates/id/24?page%2525253D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=24 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T22:52:30+08:00 ] 117.185.27.113 /wei/index.php/home/cate/cates/id/23?page%25252525252525252525252525252525252525253D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0000s ]
+SQL: SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_cate` WHERE ( cate_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select *from sw_goods  where goods_category_id=23 order by goods_id desc Limit 0, 3 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_name C:\yjdata\www\www\wei\Application\Home\Controller\CateController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T23:41:06+08:00 ] 220.181.108.118 /wei/index.php/goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:index
+

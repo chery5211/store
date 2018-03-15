@@ -1,0 +1,12 @@
+[ 2016-11-25T07:17:36+08:00 ] 123.125.71.103 /wei/index.php/Home/Cate/ca/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id= ) LIMIT 1  
+
+[ 2016-11-25T08:17:55+08:00 ] 220.181.108.106 /wei/index.php/Home/Cate/cates/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `cate_name` FROM `sw_cate` WHERE ( cate_id= ) LIMIT 1  
+

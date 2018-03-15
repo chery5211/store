@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User</title>
+    <include file="Common:header"/>    
+
+    
+    
+    
+    <div class="container">
+      <h2 class="page-header">个人中心</h2>
+            <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                   href="#collapseOne">
+                    信息
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse ">
+            <div class="panel-body">
+               
+                <center>
+                              
+                            <label class="" for="billing_first_name">Name <abbr title="required" class="required"  >*</abbr>
+                            </label>
+                            <input type="text" value="{$userinfo.username}" placeholder="" id="billing_first_name" name="user" disabled  class="input-text "><br><br>
+                             <label class="" for="billing_first_name"> Email<abbr title="required" class="required">*</abbr>
+                            </label>
+                            <input type="text" value="{$userinfo.user_email}" placeholder="" id="billing_first_name" name="email" disabled class="input-text "><br><br> 
+                             <label class="" for="billing_first_name">Psw<abbr title="required" class="required">*</abbr>
+                            </label>
+                            <input type="text" value="{$userinfo.password}" placeholder="" id="billing_first_name" name="pass" disabled class="input-text "><br><br>
+
+                           <!--   <label class="" for="billing_first_name">Email <abbr title="required" class="required">*</abbr>
+                            </label>
+                            <input type="text" value="" placeholder="" id="billing_first_name" name="billing_first_name" class="input-text "><br><br>
+                             <label class="" for="billing_first_name">Addr <abbr title="required" class="required">*</abbr>
+                            </label>
+                            <input type="text" value="" placeholder="" id="billing_first_name" name="billing_first_name" class="input-text "><br><br> -->
+
+                                 <input type="submit" value="修改" onclick='update()'>    
+                                 <input type="submit" value="保存" onclick='save({$userinfo.user_id})'>    
+                </center>
+                                           
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                   href="#collapseTwo" >
+                    收藏
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                 <foreach name='goodsinfo' item='v' key='k'>
+                <div class="col-md-3 col-sm-6" id="s{$v.goods_id}">
+                   
+                    <div class="single-shop-product">
+                        <div class="product-upper">
+                            <a  href="__MODULE__/Goods/detail/goods_id/{$v.goods_id}"><img src="__ROOT__/{$v.goods_big_img}" alt=""></a>
+                        </div>
+                        <h2>{$v.goods_name}</h2>
+                        <div class="product-carousel-price">
+                              <ins>${$v.goods_price}</ins> <del>${$v.goods_price2}</del>
+                        </div>  
+                        
+                        <div class="product-option-shop">
+                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="javascript:cancel({$v.goods_id})">Cancel to collect</a>
+                        </div>                       
+                    </div>
+                </div>
+                </foreach>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                   href="#collapseThree" >
+                    订单
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                <table class="shop_table">
+                    <thead>
+                        <tr>
+                            <th class="product-total">订单编号</th>
+                            <th class="product-name">商品</th>
+                            <th class="product-total">单价</th>              
+                            <th class="product-total">数量</th>
+                            <th class="product-total">小计</th> 
+                            <th class="product-total">订单时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name="info" item="v" key="k">
+                         <tr>
+                              <td>{$info[$k]['id']}</td>     
+                              <td>{$info[$k]['gwc_goods_name']}</td>
+                              <td>{$info[$k]['gwc_goods_price']}</td>
+                              <td>{$info[$k]['gwc_goods_num']}</td>
+                              <td>{$info[$k]['xiaoji']}</td>
+                              <td>{$info[$k]['time']}</td>
+                        </tr>
+                    </foreach>
+                    </tbody>
+                    <!-- <tr><td colspan="5">合计&nbsp;{$total}</td></tr> -->
+                
+                </table>
+
+            </div>
+        </div>
+    </div>
+<!--     <div class="panel panel-warning">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                   href="#collapseFour">
+                    点击我进行展开，再次点击我进行折叠。第 4 部分--options 方法
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+                Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred 
+                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice 
+                lomo.
+            </div>
+        </div>
+    </div> -->
+</div>
+<script type="text/javascript">
+    $(function () { $('#collapseFour').collapse({
+        toggle: false
+    })});
+    $(function () { $('#collapseTwo').collapse('show')});
+    $(function () { $('#collapseThree').collapse('toggle')});
+    $(function () { $('#collapseOne').collapse('hide')});
+
+    function update(id){
+        $('.input-text').removeAttr("disabled");
+    }
+
+  
+</script>  
+    </div>
+
+
+       
+    <include file="Common:bottom"/>
+  </body>
+</html>

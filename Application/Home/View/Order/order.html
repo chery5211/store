@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    
+<include file="Common:header"/>
+    
+    
+    <div class="single-product-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-sidebar">
+                        <h2 class="sidebar-title">Search Products</h2>
+                        <form action="">
+                            <input type="text" placeholder="Search products...">
+                            <input type="submit" value="Search">
+                        </form>
+                    </div>
+                    
+                    <div class="single-sidebar">
+                        <h2 class="sidebar-title">Products</h2>
+                        <div class="thubmnail-recent">
+                            <img src="__HOMEIMG__product-thumb-1.jpg" class="recent-thumb" alt="">
+                            <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+                            <div class="product-sidebar-price">
+                                <ins>$700.00</ins> <del>$800.00</del>
+                            </div>                             
+                        </div>
+                        <div class="thubmnail-recent">
+                            <img src="__HOMEIMG__product-thumb-1.jpg" class="recent-thumb" alt="">
+                            <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+                            <div class="product-sidebar-price">
+                                <ins>$700.00</ins> <del>$800.00</del>
+                            </div>                             
+                        </div>
+                        <div class="thubmnail-recent">
+                            <img src="__HOMEIMG__product-thumb-1.jpg" class="recent-thumb" alt="">
+                            <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+                            <div class="product-sidebar-price">
+                                <ins>$700.00</ins> <del>$800.00</del>
+                            </div>                             
+                        </div>
+                        <div class="thubmnail-recent">
+                            <img src="__HOMEIMG__product-thumb-1.jpg" class="recent-thumb" alt="">
+                            <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+                            <div class="product-sidebar-price">
+                                <ins>$700.00</ins> <del>$800.00</del>
+                            </div>                             
+                        </div>
+                    </div>
+                    
+                    <div class="single-sidebar">
+                        <h2 class="sidebar-title">Recent Posts</h2>
+                        <ul>
+                            <li><a href="single-product.html">Sony Smart TV - 2015</a></li>
+                            <li><a href="single-product.html">Sony Smart TV - 2015</a></li>
+                            <li><a href="single-product.html">Sony Smart TV - 2015</a></li>
+                            <li><a href="single-product.html">Sony Smart TV - 2015</a></li>
+                            <li><a href="single-product.html">Sony Smart TV - 2015</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-8">
+                    <div class="product-content-right">
+                        <div class="woocommerce">
+
+
+                            <div class="woocommerce-info">有优惠券? <a class="showcoupon" data-toggle="collapse" href="#coupon-collapse-wrap" aria-expanded="false" aria-controls="coupon-collapse-wrap">Click here to enter your code</a>
+                            </div>
+
+                            <form id="coupon-collapse-wrap" method="post" class="checkout_coupon collapse">
+
+                                <p class="form-row form-row-first">
+                                    <input type="text" value="" id="coupon_code" placeholder="Coupon code" class="input-text" name="coupon_code">
+                                </p>
+
+                                <p class="form-row form-row-last">
+                                    <input type="submit" value="Apply Coupon" name="apply_coupon" class="button">
+                                </p>
+
+                                <div class="clear"></div>
+                            </form>
+
+                            <form enctype="multipart/form-data" action="{:U('Order/add')}" class="checkout" method="post" name="checkout">
+
+                                <div id="customer_details" class="col2-set">
+                                    <div class="col-1">
+                                        <div class="woocommerce-billing-fields">
+                                            <h3>结算明细</h3>
+                                        
+
+                                            <p id="billing_last_name_field" class="form-row form-row-last validate-required">
+                                                <label class="" for="billing_last_name">姓名<abbr title="required" class="required">*</abbr>
+                                                </label>
+                                                <input type="text" value="{$userinfo.username}" placeholder="" id="billing_last_name" name="order_name" class="input-text ">
+                                            </p>
+                                            <div class="clear"></div>
+
+                                            <p id="billing_postcode_field" class="form-row form-row-last address-field validate-required validate-postcode" data-o_class="form-row form-row-last address-field validate-required validate-postcode">
+                                                <label class="" for="billing_postcode">邮箱 <abbr title="required" class="required">*</abbr>
+                                                </label>
+                                                <input type="text" value="{$userinfo.user_email
+                                            }" placeholder="Postcode / Zip" id="billing_postcode" name="order_email" class="input-text ">
+                                            </p>
+
+                                            <div class="clear"></div>
+
+
+                                            <p id="billing_phone_field" class="form-row form-row-last validate-required validate-phone">
+                                                <label class="" for="billing_phone">电话 <abbr title="required" class="required">*</abbr>
+                                                </label>
+                                                <input type="text" value="{$userinfo.user_tel}" placeholder="" id="billing_phone" name="order_tel" class="input-text ">
+                                            </p>
+                                      
+                                                 <p id="billing_address_1_field" class="form-row form-row-wide address-field validate-required">
+                                                <label class="" for="billing_address_1">地址<abbr title="required" class="required">*</abbr>
+                                                </label>
+                                                <input type="text" value="" placeholder="Street address" id="billing_address_1" name="order_addr" class="input-text ">
+                                            </p>
+
+                                                   
+
+
+                                        </div>
+                                    </div>
+
+        
+
+                                    </div>
+
+                                </div>
+
+                                <h3 id="order_review_heading">Your order</h3>
+
+                                <div id="order_review" style="position: relative;">
+                                    <table class="shop_table">
+                                        <thead>
+                                            <tr>
+                                                <th class="product-name">商品</th>
+                                                <th class="product-total">单价</th>
+                                                <th class="product-total">运费和手续费</th>
+                                                <th class="product-total">数量</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <foreach name="info" item="v" key="k">
+                                             <tr>
+                                                  <td>{$info[$k]['gwc_goods_name']}</td>
+                                                  <td>{$info[$k]['gwc_goods_price']}</td>
+                                                  <td>免费</td>
+                                                  <td>{$info[$k]['gwc_goods_num']}</td>
+                                            </tr>
+                                        </foreach>
+                                        </tbody>
+                                        <tr><td colspan="4">合计&nbsp;{$total}</td></tr>
+                                    
+                                    </table>
+
+
+
+                                    <div id="payment">
+                                        <ul class="payment_methods methods">
+                                            <li class="payment_method_bacs">
+                                                <input type="radio" data-order_button_text="" checked="checked" value="bacs" name="payment_method" class="input-radio" id="payment_method_bacs">
+                                                <label for="payment_method_bacs">银行卡 </label>
+                                                <div class="payment_box payment_method_bacs">
+                                                    <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                                                </div>
+                                            </li>
+                                            <li class="payment_method_cheque">
+                                                <input type="radio" data-order_button_text="" value="cheque" name="payment_method" class="input-radio" id="payment_method_cheque">
+                                                <label for="payment_method_cheque">支票 </label>
+                                                <div style="display:none;" class="payment_box payment_method_cheque">
+                                                    <p>Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                                                </div>
+                                            </li>
+                                           
+                                        </ul>
+
+                                        <div class="form-row place-order">
+
+                                            <input type="submit" data-value="Place order" value="Place order" id="place_order" name="woocommerce_checkout_place_order" class="button alt">
+
+
+                                        </div>
+
+                                        <div class="clear"></div>
+
+                                    </div>
+                                </div>
+                                 <input type="hidden" name='total' value="{$total}">
+                            </form>
+
+                        </div>                       
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <include file="Common:bottom"/>
+  </body>
+</html>

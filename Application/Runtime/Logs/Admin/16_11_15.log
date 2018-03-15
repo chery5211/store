@@ -1,0 +1,1447 @@
+[ 2016-11-15T20:08:35+08:00 ] ::1 /wei/index.php/Admin/Manager/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: msg D:\wamp\www\wei\Application\Runtime\Cache\Admin\9573a6fefcd263b117f74d0cf3257239.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-11-15T20:08:36+08:00 ] ::1 /wei/index.php/Admin/Manager/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-11-15T20:08:50+08:00 ] ::1 /wei/index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `sw_manager` WHERE ( mg_name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-15T20:08:50+08:00 ] ::1 /wei/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-11-15T20:08:51+08:00 ] ::1 /wei/index.php/Admin/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-11-15T20:08:51+08:00 ] ::1 /wei/index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-11-15T20:08:51+08:00 ] ::1 /wei/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: admin_name D:\wamp\www\wei\Application\Admin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 and auth_id in(10,21,22,23,49,11,31,32,12,41,42,43,52,53,54) )  [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 and auth_id in(10,21,22,23,49,11,31,32,12,41,42,43,52,53,54) )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-11-15T20:08:51+08:00 ] ::1 /wei/index.php/Admin/Index/bottom.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-11-15T20:09:01+08:00 ] ::1 /wei/index.php/Admin/Manager/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+ERR: 非法操作:showlist
+
+[ 2016-11-15T20:09:04+08:00 ] ::1 /wei/index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `sw_role`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\7083caa8be6418438f207bfc442a1335.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-11-15T20:09:04+08:00 ] ::1 /wei/index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\7083caa8be6418438f207bfc442a1335.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-11-15T20:09:08+08:00 ] ::1 /wei/index.php/Admin/Role/distribute/role_id/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 100 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\89cac4452049930e1c9d1d0b413e577a.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-11-15T20:09:19+08:00 ] ::1 /wei/index.php/Admin/Role/distribute/role_id/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_auth` WHERE `auth_id` IN ('10','21','22','23','49','11','31','32')  [ RunTime:0.0270s ]
+SQL: update sw_role set role_auth_ids='10,21,22,23,49,11,31,32',role_auth_ac='Goods-showlist,Goods-add,Goods-category,Order-showlist,Order-search,Goods-search,' where role_id='100' [ RunTime:0.0963s ]
+
+[ 2016-11-15T20:09:21+08:00 ] ::1 /wei/index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0882s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `sw_role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\7083caa8be6418438f207bfc442a1335.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-11-15T20:09:26+08:00 ] ::1 /wei/index.php/Admin/Role/update/role_id/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:update
+
+[ 2016-11-15T20:09:31+08:00 ] ::1 /wei/index.php/Admin/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_auth` ORDER BY auth_path  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-11-15T20:09:42+08:00 ] ::1 /wei/index.php/Admin/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_auth` ORDER BY auth_path  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-11-15T20:09:53+08:00 ] ::1 /wei/index.php/Admin/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_auth` ORDER BY auth_path  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-11-15T20:09:55+08:00 ] ::1 /wei/index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\7083caa8be6418438f207bfc442a1335.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-11-15T20:10:00+08:00 ] ::1 /wei/index.php/Admin/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `sw_auth` ORDER BY auth_path  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-11-15T20:10:04+08:00 ] ::1 /wei/index.php/Admin/Auth/update/goods_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:update
+
+[ 2016-11-15T20:10:38+08:00 ] ::1 /wei/index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `sw_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\7083caa8be6418438f207bfc442a1335.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-11-15T20:16:20+08:00 ] ::1 /wei/index.php/Admin/Role/update/role_id/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:update
+
+[ 2016-11-15T20:16:29+08:00 ] ::1 /wei/index.php/Admin/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_auth` ORDER BY auth_path  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-11-15T20:18:57+08:00 ] ::1 /wei/index.php/Admin/Auth/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-11-15T20:19:17+08:00 ] ::1 /wei/index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\7083caa8be6418438f207bfc442a1335.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-11-15T20:19:21+08:00 ] ::1 /wei/index.php/Admin/Role/distribute/role_id/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 100 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\89cac4452049930e1c9d1d0b413e577a.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-11-15T20:20:55+08:00 ] ::1 /wei/index.php/Admin/Role/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:tianjia
+
+[ 2016-11-15T20:21:03+08:00 ] ::1 /wei/index.php/Admin/Role/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:tianjia
+
+[ 2016-11-15T20:25:22+08:00 ] ::1 /wei/index.php/Admin/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_auth` ORDER BY auth_path  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 93 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 94 行.
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\4928a69b4809876b4427338c537f363e.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-11-15T20:25:25+08:00 ] ::1 /wei/index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\7083caa8be6418438f207bfc442a1335.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-11-15T20:26:17+08:00 ] ::1 /wei/index.php/Admin/Role/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:tianjia
+
+[ 2016-11-15T20:31:46+08:00 ] ::1 /wei/index.php/Admin/Role/distribute/role_id/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 100 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\89cac4452049930e1c9d1d0b413e577a.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-11-15T20:32:03+08:00 ] ::1 /wei/index.php/Admin/Role/update/role_id/101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:update
+
+[ 2016-11-15T20:32:16+08:00 ] ::1 /wei/index.php/Admin/Role/distribute/role_id/102
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\89cac4452049930e1c9d1d0b413e577a.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2016-11-15T20:32:46+08:00 ] ::1 /wei/index.php/Admin/Role/distribute/role_id/102
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_auth` WHERE `auth_id` IN ('10','21','22','23','49','11','31','32','12','41','42','43')  [ RunTime:0.0004s ]
+SQL: update sw_role set role_auth_ids='10,21,22,23,49,11,31,32,12,41,42,43',role_auth_ac='Goods-showlist,Goods-add,Goods-category,Order-showlist,Order-search,Manager-showlist,Role-showlist,Auth-showlist,Goods-search,' where role_id='102' [ RunTime:0.0743s ]
+
+[ 2016-11-15T20:32:48+08:00 ] ::1 /wei/index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\7083caa8be6418438f207bfc442a1335.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-11-15T20:32:50+08:00 ] ::1 /wei/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-11-15T20:32:50+08:00 ] ::1 /wei/index.php/Admin/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-11-15T20:32:50+08:00 ] ::1 /wei/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: admin_name D:\wamp\www\wei\Application\Admin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 and auth_id in(10,21,22,23,49,11,31,32,12,41,42,43) )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 and auth_id in(10,21,22,23,49,11,31,32,12,41,42,43) )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-11-15T20:32:50+08:00 ] ::1 /wei/index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-11-15T20:32:50+08:00 ] ::1 /wei/index.php/Admin/Index/bottom.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2016-11-15T20:33:44+08:00 ] ::1 /wei/index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\7083caa8be6418438f207bfc442a1335.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2016-11-15T20:33:47+08:00 ] ::1 /wei/index.php/Admin/Role/distribute/role_id/102
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\89cac4452049930e1c9d1d0b413e577a.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-11-15T20:34:42+08:00 ] ::1 /wei/index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\7083caa8be6418438f207bfc442a1335.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-11-15T20:34:48+08:00 ] ::1 /wei/index.php/Admin/Role/delete/role_id/100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:delete
+
+[ 2016-11-15T20:49:42+08:00 ] ::1 /wei/index.php/Admin/Role/distribute/role_id/102
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\89cac4452049930e1c9d1d0b413e577a.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-11-15T20:49:49+08:00 ] ::1 /wei/index.php/Admin/Role/distribute/role_id/102
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_auth` WHERE `auth_id` IN ('10','21','22','23','49','11','31','32','12','41','42','43','52','53','54')  [ RunTime:0.0003s ]
+SQL: update sw_role set role_auth_ids='10,21,22,23,49,11,31,32,12,41,42,43,52,53,54',role_auth_ac='Goods-showlist,Goods-add,Goods-category,Order-showlist,Order-search,Manager-showlist,Role-showlist,Auth-showlist,Goods-search,Cate-tianjia,Cate-showlist,' where role_id='102' [ RunTime:0.0768s ]
+
+[ 2016-11-15T20:49:51+08:00 ] ::1 /wei/index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\7083caa8be6418438f207bfc442a1335.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-11-15T20:49:52+08:00 ] ::1 /wei/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-11-15T20:49:52+08:00 ] ::1 /wei/index.php/Admin/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2016-11-15T20:49:53+08:00 ] ::1 /wei/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: admin_name D:\wamp\www\wei\Application\Admin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 and auth_id in(10,21,22,23,49,11,31,32,12,41,42,43,52,53,54) )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 and auth_id in(10,21,22,23,49,11,31,32,12,41,42,43,52,53,54) )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2016-11-15T20:49:53+08:00 ] ::1 /wei/index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-11-15T20:49:53+08:00 ] ::1 /wei/index.php/Admin/Index/bottom.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-11-15T20:49:57+08:00 ] ::1 /wei/index.php/Admin/Cate/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_role` WHERE `role_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_cate` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_cate` ORDER BY cate_path  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 91 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 92 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 91 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 92 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 91 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 92 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 91 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 92 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 91 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 92 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 91 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 92 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 91 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 92 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 91 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 92 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 91 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 92 行.
+NOTIC: [8] Undefined variable: pagelist D:\wamp\www\wei\Application\Runtime\Cache\Admin\7d527337abf8c8352f576f1033505a34.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+

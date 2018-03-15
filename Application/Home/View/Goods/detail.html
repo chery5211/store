@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+
+        .product-tab li{
+            float: left;
+            width: 110px;
+        }
+
+        #ss{
+            /*border:1px solid red;*/
+            overflow: scroll;
+            overflow-x:hidden ;
+            height: 300px;
+            float: left;
+            width: 360px;
+        }
+      
+       
+    </style>
+    
+<!-- 头部 -->
+    <include file="Common:header"/>
+    
+    <div class="single-product-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-sidebar">
+                        <h2 class="sidebar-title">Search Products</h2>
+                        <!-- <form action=""  method="get"> -->
+                            <input type="text" placeholder="Search products..." name='keyword'>
+                            <input type="submit" value="Search" class="se">
+                        <!-- </form> -->
+                    </div>
+                    
+                    <div class="single-sidebar">
+                        <h2 class="sidebar-title">Products</h2>
+                        <foreach name="info4" key="k" item="v">
+                        <div class="thubmnail-recent">
+                            <img src="__ROOT__/{$v.goods_big_img}" class="recent-thumb" alt="">
+                            <h2><a href="__CONTROLLER__/detail/goods_id/{$v.goods_id}">{$v.goods_name}</a></h2>
+                            <div class="product-sidebar-price">
+                                <ins>${$v.goods_price}</ins> <del>${$v.goods_price2}</del>
+                            </div>                             
+                        </div>
+                        </foreach>
+                      
+                    </div>
+                    
+                    <div class="single-sidebar">
+                        <h2 class="sidebar-title">Recent Posts</h2>
+                        <ul>
+                            <foreach name="info5" key="k" item="v">
+                                <li><a href="__CONTROLLER__/detail/goods_id/{$v.goods_id}">{$v.goods_name}</a></li>
+                            </foreach>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-8">
+                    <div class="product-content-right">
+<!--                         <div class="product-breadcroumb">
+                            <a href="">Home</a>
+                            <a href="">Category Name</a>
+                            <a href="">Sony Smart TV - 2015</a>
+                        </div> -->
+                        
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="product-images">
+                                    <div class="product-main-img">
+                                        <img src="__ROOT__/{$info.goods_big_img}" alt="">
+                                    </div>
+                                    
+                                    <div class="product-gallery">
+                                        <img src="__ROOT__/{$info.goods_small_img}" alt="">
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6">
+                                <div class="product-inner">
+                                    <h2 class="product-name">{$info.goods_name}</h2>
+                                    <div class="product-inner-price">
+                                        <ins>${$info.goods_price}</ins> <del>${$info.goods_price2}</del>
+                                    </div>    
+                                    
+                                    <form action="" class="cart">
+                                        <div class="quantity">
+                                            <input type="number" size="4" class="input-text qty text" title="Qty" value="1" name="number" min="1" step="1">
+                                        </div>
+                                        <a class="add_to_cart_button" type="submit" href="javascript:addCart({$info.goods_id});">Add to cart</a>
+                                        <a class="add_to_cart_button" type="submit" href="javascript:collect({$info.goods_id});">Collect</a>
+                                    </form>   
+                                    
+<!--                                     <div class="product-inner-category">
+                                        <p>Category: <a href="">Summer</a>. Tags: <a href="">awesome</a>, <a href="">best</a>, <a href="">sale</a>, <a href="">shoes</a>. </p>
+                                    </div>  -->
+                                       <script type="text/javascript">
+                                            function addCart(productid){
+                                            var url = "{:U('Gwc/addgwc')}";
+                                            // var number=parseInt($("input[name='number']").val());
+                                            // alert(number);
+                                            var data = { "productid":productid,"num":parseInt($("input[name='number']").val())};
+                                            var success = function(response){
+                                                if(response.errno == 0){
+                                                    alert('加入购物车成功！');
+                                                    // location.href="{:U('Gwc/gwc')}";
+                                                }else{
+                                                    alert('请先登录');
+                                                }
+                                            };
+                                            $.post(url,data,success,"json");
+                                        
+                                        }
+
+                                        function collect(id){
+                                            var url="{:U('Goods/collect')}";
+                                            var data={"id":id};
+                                            var success =function(response){
+                                                if (response.errno == 2){
+                                                    alert('请先登录');
+                                                }else if(response.errno == 3){
+                                                    alert('已收藏');
+                                                }else if(response.errno == 1){
+                                                    alert('收藏成功');
+                                                }
+                                                else{
+                                                    alert('收藏失败');
+                                                }
+                                            }
+                                            $.post(url,data,success,"json");
+                                        }       
+            
+                                       </script>                    
+                                    
+                                    <div role="tabpanel" id="s">
+                                        <ul class="product-tab" role="tablist">
+                                            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab" class="c">Description</a></li>
+                                            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"  >Reviews</a></li>
+                                            <li role="presentation"><a href="#rinfo" aria-controls="rinfo" role="tab" data-toggle="tab" class="getRe">Re-Infos</a></li>
+                                        
+                                        </ul>
+                                        <div class="tab-content" id="ss">
+                                            <div role="tabpanel" class="tab-pane fade in active" id="home">
+                                                <h2>Product Description</h2>  
+                                                <p>{$info.goods_introduce}</p>
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane fade" id="profile">
+                                                <h2>Reviews</h2>
+                                                <div class="submit-review">
+<!--                                                     <p><label for="name">Name</label> <input name="name" type="text"></p>
+                                                    <p><label for="email">Email</label> <input name="email" type="email"></p>
+                                                    <div class="rating-chooser">
+                                                        <p>Your rating</p>
+
+                                                        <div class="rating-wrap-post">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                    </div> -->
+                                                    <p><label for="review">Your review</label>
+                                                    <input type="hidden" name="goods_id" value="{$info.goods_id}">
+                                                     <textarea name="review" id="content" cols="30" rows="10"></textarea></p>
+                                                    <p><input  class="sub" type="submit"  value="Submit"></p>
+                                                </div>
+                                            </div>
+
+                                            <div role="tabpanel" class="tab-pane fade in " id="rinfo">
+                                           
+                                                 <h2>Product Reviewsinfo</h2> 
+
+                                                
+
+
+                                      
+                                                
+                                            </div>
+
+                                        </div>
+
+
+
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="related-products-wrapper">
+                            <h2 class="related-products-title">Related Products</h2>
+                            <div class="related-products-carousel">
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                        <img src="__HOMEIMG__product-1.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                            <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        </div>
+                                    </div>
+
+                                    <h2><a href="">Sony Smart TV - 2015</a></h2>
+
+                                    <div class="product-carousel-price">
+                                        <ins>$700.00</ins> <del>$800.00</del>
+                                    </div> 
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                        <img src="__HOMEIMG__product-2.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                            <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        </div>
+                                    </div>
+
+                                    <h2><a href="">Apple new mac book 2015 March :P</a></h2>
+                                    <div class="product-carousel-price">
+                                        <ins>$899.00</ins> <del>$999.00</del>
+                                    </div> 
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                        <img src="__HOMEIMG__product-3.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                            <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        </div>
+                                    </div>
+
+                                    <h2><a href="">Apple new i phone 6</a></h2>
+
+                                    <div class="product-carousel-price">
+                                        <ins>$400.00</ins> <del>$425.00</del>
+                                    </div>                                 
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                        <img src="__HOMEIMG__product-4.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                            <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        </div>
+                                    </div>
+
+                                    <h2><a href="">Sony playstation microsoft</a></h2>
+
+                                    <div class="product-carousel-price">
+                                        <ins>$200.00</ins> <del>$225.00</del>
+                                    </div>                            
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                        <img src="__HOMEIMG__product-5.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                            <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        </div>
+                                    </div>
+
+                                    <h2><a href="">Sony Smart Air Condtion</a></h2>
+
+                                    <div class="product-carousel-price">
+                                        <ins>$1200.00</ins> <del>$1355.00</del>
+                                    </div>                                 
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                        <img src="__HOMEIMG__product-6.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                            <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        </div>
+                                    </div>
+
+                                    <h2><a href="">Samsung gallaxy note 4</a></h2>
+
+                                    <div class="product-carousel-price">
+                                        <ins>$400.00</ins>
+                                    </div>                            
+                                </div>                                    
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <include file="Common:bottom"/>
+  </body>
+</html>

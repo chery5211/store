@@ -1,0 +1,244 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cart</title>
+    
+<!-- 头部-->
+<include file="Common:header"/>
+    
+    
+    <div class="single-product-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-sidebar">
+                        <h2 class="sidebar-title">Search Products</h2>
+                  
+                          <input type="text" placeholder="Search products..." name='keyword'>
+                            <input type="submit" value="Search" class="se">
+                    
+                    </div>
+                    
+                    <div class="single-sidebar">
+                        <h2 class="sidebar-title">Products</h2>
+                         <foreach name="info4" key="k" item="v">
+                        <div class="thubmnail-recent">
+                            <img src="__ROOT__/{$v.goods_big_img}" class="recent-thumb" alt="">
+                            <h2><a href="__MODULE__/Goods/detail/goods_id/{$v.goods_id}">{$v.goods_name}</a></h2>
+                            <div class="product-sidebar-price">
+                                <ins>${$v.goods_price}</ins> <del>${$v.goods_price2}</del>
+                            </div>                             
+                        </div>
+                        </foreach>
+                    </div>
+                    
+                    <div class="single-sidebar">
+                        <h2 class="sidebar-title">Recent Posts</h2>
+                        <ul>
+                            <foreach name="info5" key="k" item="v">
+                                <li><a href="__MODULE__/Goods/detail/goods_id/{$v.goods_id}">{$v.goods_name}</a></li>
+                            </foreach>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-8">
+                    <div class="product-content-right">
+                        <div class="woocommerce">
+                            
+                                <table cellspacing="0" class="shop_table cart">
+                                    <thead>
+                                        <tr>
+                                            <th class="product-remove">&nbsp;</th>
+                                            <th class="product-thumbnail">&nbsp;</th>
+                                            <th class="product-name">Product</th>
+                                            <th class="product-price">Price</th>
+                                            <th class="product-quantity">Quantity</th>
+                                            <th class="product-subtotal">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <foreach name="info" item="v" key="k">
+                                        <tr class="cart_item" id="shanchu_{$v.gwc_goods_id}">
+                                            <td class="product-remove">
+                                                <a title="Remove this item" class="remove" href="javascript:delCart({$v.gwc_goods_id})"     >×</a> 
+                                            </td>
+
+                                            <td class="product-thumbnail">
+                                                <a href="single-product.html"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="__ROOT__/{$v.gwc_goods_big_img}"></a>
+                                            </td>
+
+                                            <td class="product-name">
+                                                <a href="single-product.html">{$info[$k]['gwc_goods_name']}</a> 
+                                            </td>
+
+                                            <td class="product-price">
+                                                <span class="amount" id="p_{$v.gwc_goods_id}">{$info[$k]['gwc_goods_price']}</span> 
+                                            </td>
+
+                                            <td class="product-quantity">
+                                                <div class="quantity buttons_added">
+                                                    <!-- <input type="button" class="minus" value="-"> -->
+                                                    <input type="text" size="4"  id="product_{$v.gwc_goods_id}" value="{$info[$k]['gwc_goods_num']}"  onchange="changeNum({$v.gwc_goods_id})" >
+                                                    <!-- <input type="button" class="plus" value="+"> -->
+                                                </div>
+                                            </td>
+
+                                            <td class="product-subtotal">
+                                                <span class="a" id="price_{$v.gwc_goods_id}">{$info[$k]['xiaoji']}</span> 
+                                            </td>
+                                        </tr>
+                                    </foreach>
+                                        <tr>
+                                            <td class="actions" colspan="6">
+                                         
+                                              
+                                                  <a href="javascript:clear();"><input type="submit" value="Update Cart" name="update_cart" class="button"  ></a>
+                                              
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                    
+                              <a href="{:U('Goods/showlist')}"><input type="submit" value="Continue Shop" name="update_cart" class="button" ></a>
+                                <a href="{:U('Order/order')}"><input  style="margin-left:320px" type="submit" value="Proceed to Checkout" name="proceed" class="checkout-button button alt wc-forward"></a><br><br>
+                               <script>
+            function changeNum(productid){
+ 
+
+            var num = $('#product_'+productid).val();
+              // alert(num);
+            var url = "{:U('changeNum')}";
+            var data = { 'productid':productid,'num':num};
+            var success = function(response){
+                if(response.errno == 0){
+                   
+                  var price = num*(parseInt($("#p_"+productid).text()));
+                  // alert($("#p_"+productid).text());
+                    $("#price_"+productid).html(price); 
+
+                    //计算总数
+                    total=0;
+                    $('.a').each(function(i,value){
+                        total+=parseInt($('.a').eq(i).text());
+                    });
+
+                    $('#total').text(total);
+
+
+                }
+
+            }
+            $.post(url,data,success,"json");
+                    
+        }
+
+
+
+        function delCart(productid){
+            var url = "{:U('delCart')}";
+            var data = {'productid':productid};
+
+            var success = function(response){
+                if(response.errno == 0){
+                    $('#shanchu_'+productid).remove();
+                     //计算总数
+                    total=0;
+                    $('.a').each(function(i,value){
+                        total+=parseInt($('.a').eq(i).text());
+                    });
+
+                    $('#total').text(total);
+                }
+            }
+            $.post(url,data,success,"json");
+        }
+
+        function clear(){
+            var url = "{:U('clearCart')}";
+           var success=function(response){
+                if(response.errno == 0){
+                    $('.cart_item').remove();
+                     //计算总数
+                    total=0;
+                    $('.a').each(function(i,value){
+                        total+=parseInt($('.a').eq(i).text());
+                    });
+
+                    $('#total').text(total);
+                }
+            }
+            $.post(url,success,"json");
+
+        }
+        </script>
+
+                            <div class="cart-collaterals">
+
+
+                            <div class="cross-sells">
+                                <h2>您可能感兴趣的。。</h2>
+                                <ul class="products">
+                                    <li class="product">
+                                        <a href="single-product.html">
+                                            <img width="325" height="325" alt="T_4_front" class="attachment-shop_catalog wp-post-image" src="__HOMEIMG__product-2.jpg">
+                                            <h3>Ship Your Idea</h3>
+                                            <span class="price"><span class="amount">£20.00</span></span>
+                                        </a>
+
+                                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="single-product.html">Select options</a>
+                                    </li>
+
+                                    <li class="product">
+                                        <a href="single-product.html">
+                                            <img width="325" height="325" alt="T_4_front" class="attachment-shop_catalog wp-post-image" src="__HOMEIMG__product-4.jpg">
+                                            <h3>Ship Your Idea</h3>
+                                            <span class="price"><span class="amount">£20.00</span></span>
+                                        </a>
+
+                                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="single-product.html">Select options</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <div class="cart_totals ">
+                                <h2>汇总</h2>
+
+                                <table cellspacing="0">
+                                    <tbody>
+
+                                        <tr class="shipping">
+                                            <th>送货方式</th>
+                                            <td>免费</td>
+                                        </tr>
+
+                                        <tr class="order-total">
+                                            <th>合计</th>
+                                            <td><strong><span class="amount" id="total">{$total}</span></strong> </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+
+
+
+                            </div>
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <!-- 底部-->
+<include file="Common:bottom"/>
+  </body>
+</html>

@@ -1,0 +1,228 @@
+    
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>   
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="__HOMECSS__bootstrap.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="__HOMECSS__font-awesome.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="__HOMECSS__owl.carousel.css">
+    <link rel="stylesheet" href="__HOMECSS__style.css">
+    <link rel="stylesheet" href="__HOMECSS__responsive.css">
+
+
+  </head>
+  <body>
+   
+    <div class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="user-menu">
+                        <ul>
+                            <li><a href="{:U('User/index')}"><i class="fa fa-user"></i> 我的账户</a></li>
+                            <li><a href="{:U('User/index')}"><i class="fa fa-heart"></i> 收藏</a></li>
+                            <li><a href="{:U('Gwc/gwc')}"><i class="fa fa-user"></i> 我的车</a></li>
+                            <li><a href="{:U('User/index')}"><i class="fa fa-user"></i> 个人</a></li>
+                          
+                        <empty name="uname">
+                        <li><a  class="" data-toggle='modal' data-target='#mymodal'><i class="fa fa-user"></i>登录</a></li>
+                        </empty>
+                        </ul>
+                    </div>
+                </div>
+
+
+            <!-- 模态框内容 -->
+
+        <div class="modal fade in" id='mymodal'>
+                <div class="modal-dialog">
+                <div class="modal-content center-block">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss='modal' >&times;</button>
+                        <h3 class='modal-title'>Welcome</h3>    
+                    </div>
+
+                    <div class="modal-body">
+                        
+                <!--    <form class="form-horizontal"> -->
+
+                        <ul class="nav nav-tabs" id="a">
+                          <li class="active" ><a href="#tab1" data-toggle="tab">登录</a></li>
+                          <li><a href="#tab2" data-toggle="tab">注册</a></li>
+                        </ul>
+
+
+                        <div class="tab-content">
+                          <div class="active tab-pane" id="tab1">
+                            <form class="form-horizontal" action="{:U('User/login')}" method="post" >
+                            <fieldset>
+                              <legend>用户登录</legend>
+                              <div class="control-group">
+                                <label class="control-label" for="username">用户名</label>
+                                <div class="controls">
+                                  <input id="username" type="text" name="usernames">
+                                  
+                                </div>
+                              </div>
+                              <div class="control-group">
+                                <label class="control-label" for="password">密码</label>
+                                <div class="controls">
+                                  <input id="password" type="password" name="password">
+                                 
+                                </div>
+                              </div>                              
+                              <div class="control-group">
+                                <label class="control-label" for="password">验证码</label>
+                                <div class="controls">
+                                  <input type="text" class="code" name="captcha"/>
+                                  <img src="{:U('Index/verifyImg')}" alt="" onclick="this.src='__MODULE__/Index/verifyImg/'+Math.random()">
+                                
+                                </div>
+                              </div>
+                            </fieldset>
+                            <div class="form-actions">
+                              <button type="submit" class="btn btn-primary">登录</button>
+                            </div>
+                          </form>
+                          </div>
+
+
+                          <div class="tab-pane" id="tab2">
+                                
+                            <form class="form-horizontal"  action="{:U('User/register')}" method="post" onsubmit="return checkForm()">
+                            <fieldset>
+                              <legend>用户注册</legend>
+                              <div class="control-group">
+                                <label class="control-label" for="username">用户名</label>
+                                <div class="controls">
+                                  <input type="text"  placeholder="username"  id="c1" name="username"  oninput="checkname()"  onblur="ch()" ><span style="color:red;" id="c2"></span>
+                                  <p class="help-block">请输入您想要注册的用户名</p>
+                                </div>
+                              </div>
+                              <div class="control-group">
+                                <label class="control-label" for="password" >密码</label>
+                                <div class="controls">
+                                  <input  type="password"  id="b1"  oninput="checkpass()" name="password">
+                                  <span style="color:red;" id="b2"></span>
+                                   <p class="help-block">请输入您想要注册的密码</p>
+                                </div>
+                              </div>
+                                <div class="control-group">
+                                <label class="control-label" for="password">确认密码</label>
+                                <div class="controls">
+                                  <input  type="password" id="d1" name="pass2" oninput="recheckpass()">
+                                  <span style="color:red;"  id="d2"></span>
+                                  <p class="help-block">请再次输入您想要注册的密码</p>
+                                </div>
+                            </div>
+
+                              <div  class="control-group">
+                                <label class="control-label" >邮箱</label>
+                                <div class="controls">
+                                  <input  type="text"  name="user_email"  id="email" >
+                                  </span>
+                                  <p class="help-block">请输入您想要注册的邮箱，例如123@qq.com</p>
+                                </div>
+                             </div>
+                         
+                              
+                            </fieldset>
+                                <div class="form-actions">
+                                  <button type="submit" class="btn btn-primary">注册</button>
+                                </div>
+                          </form>
+
+                          </div>
+                        
+                        </div>
+
+                        
+                    </div>
+<!--                    <div class="modal-footer">
+                        <button class="btn btn-primary">Ok</button>
+                        <button class="btn btn-default" data-dismiss='modal'>Cancel</button>    
+                        </div> -->
+                </div>
+            </div>
+        </div>
+                
+                         <div class="col-md-4">
+                    <div class="header-right">
+                        <ul class="list-unstyled list-inline">
+                            <notempty name="uname">
+                            <li class="dropdown dropdown-small">
+                                <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">欢迎--:</span><span class="value">{$Think.session.user_name} </span><b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">设置</a></li>
+                                    <li><a href="{:U('User/out')}">退出</a></li>
+
+                                </ul>
+                            </li>
+                             </notempty>
+ 
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> <!-- End header area -->
+    
+    <div class="site-branding-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="logo">
+                        <h1><a href="{:U('Index/index')}">wei<span>商城</span></a></h1>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <div class="shopping-item">
+                        <a href="{:U('Gwc/gwc')}">Cart -  <i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End site branding area -->
+    
+    <div class="mainmenu-area">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div> 
+                <div class="navbar-collapse collapse">
+                   <ul class="nav navbar-nav">
+                    <li><a href="{:U('Index/index')}">主页</a></li>
+                    <li><a href="{:U('Goods/showlist')}">商品列表</a></li>
+                    <li><a href="{:U('Gwc/gwc')}">购物车</a></li>
+                    <li><a href="{:U('Cate/showlist')}">分类</a></li>
+
+                </ul>
+                </div>  
+            </div>
+        </div>
+    </div> <!-- End mainmenu area -->
+    
+    <div class="product-big-title-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="product-bit-title text-center">
+                        <h2>Shop</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
